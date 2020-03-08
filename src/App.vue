@@ -17,7 +17,15 @@
           </v-list-item>
         </template>
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <v-list-item :to="{ name: 'Lista'}">
+=======
+          <v-list-item :to="{ name: 'Lista'}">
+>>>>>>> Stashed changes
+=======
+          <v-list-item :to="{ name: 'Lista'}">
+>>>>>>> Stashed changes
           <v-list-item-action>
             <v-icon>list</v-icon>
           </v-list-item-action>
@@ -25,7 +33,19 @@
             <v-list-item-title>Lista</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <v-list-item link>
+=======
+        </v-list>
+
+        <v-list-item :to="{name: 'Dashboard'}">
+>>>>>>> Stashed changes
+=======
+        </v-list>
+
+        <v-list-item :to="{name: 'Dashboard'}">
+>>>>>>> Stashed changes
           <v-list-item-action>
             <v-icon>dashboard</v-icon>
           </v-list-item-action>
@@ -33,7 +53,8 @@
             <v-list-item-title>Dashboard</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-      </v-list>
+
+      
     </v-navigation-drawer>
 
     <v-app-bar

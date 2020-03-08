@@ -17,20 +17,20 @@
           </v-list-item>
         </template>
 
-        <v-list-item link>
-          <v-list-item-action>
-            <v-icon>dashboard</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>Dashboard</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
         <v-list-item :to="{ name: 'Lista'}">
           <v-list-item-action>
             <v-icon>list</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Lista</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link>
+          <v-list-item-action>
+            <v-icon>dashboard</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>Dashboard</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>

@@ -130,24 +130,24 @@
       initialize () {
         this.nombres = [
           {
-            name: 'Juan',
-            apellido: 'Perez',
-            ced: '0123456789',
-            asig: 'Calculo',
+            name: 'Ronan',
+            apellido: 'Lynch',
+            ced: '22424020',
+            asig: 'Latín',
             promedio: 10,
           },
           {
-            name: 'Maria',
-            apellido: 'Rodriguez',
-            ced: '0789456',
-            asig: 'algebra',
-            promedio: 10,
+            name: 'Adam',
+            apellido: 'Parrish',
+            ced: '22565020',
+            asig: 'Algebra',
+            promedio: 20,
           },
           {
-            name: 'Pedro',
-            apellido: 'Perez',
-            ced: '456789123',
-            asig: 'Programacion',
+            name: 'Richard',
+            apellido: 'Gansey',
+            ced: '22464737',
+            asig: 'Programación',
             promedio: 18,
           },
         ]
